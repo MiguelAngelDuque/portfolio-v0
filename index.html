@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Miguel Angel Duque Calatayud | Web/Full-stack junior</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <title>Miguel Angel Duque | Web/Full-stack junior</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -26,15 +26,124 @@
       <h1>Desarrollador Web / Full-stack junior</h1>
 
       <p>
-        <span class="line">SMR + DAM + Certificados de Profesionalidad Web.</span>
-        <span class="line">Busco mi primera oportunidad como junior.</span>
+        SMR + DAM + Certificados de Profesionalidad Web. Busco mi primera oportunidad como junior.
       </p>
 
-      <p class="meta">
-        <span class="line">📍 Alzira (Valencia)</span>
-        <span class="line">Disponible en Valencia (presencial/híbrido) y remoto</span>
+      <p class="meta">📍 Alzira (Valencia) · Disponible en Valencia (presencial/híbrido) y remoto</p>
+
+      <div class="cta">
+        <a class="btn" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" href="#contacto">Contactar</a>
+        <a class="btn btn-ghost"
+           href="https://www.linkedin.com/in/miguel-angel-duque-calatayud/"
+           target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy Miguel Angel Duque Calatayud. Me estoy enfocando en desarrollo web full-stack
+        (frontend + backend) y quiero incorporarme como junior para seguir creciendo con proyectos reales.
+      </p>
+      <ul class="chips">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li>
+        <li>React (en progreso)</li><li>Node (en progreso)</li>
+      </ul>
+    </section>
+
+    <section id="formacion" class="section">
+      <h2>Formación</h2>
+      <ul class="list">
+        <li><strong>CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)</strong></li>
+        <li><strong>CFGM Sistemas Microinformáticos y Redes (SMR)</strong></li>
+        <li><strong>Certificado de Profesionalidad:</strong> Desarrollo de Aplicaciones con Tecnologías Web</li>
+        <li><strong>Certificado de Profesionalidad:</strong> Creación de Páginas Web con el Lenguaje de Marcas</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2>Proyectos</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>CoachBoard (en construcción)</h3>
+          <p>Gestión de entrenos/partidos, convocatorias y jugadores.</p>
+          <div class="card-links">
+            <a href="#" aria-disabled="true">Demo (pronto)</a>
+            <a href="#" aria-disabled="true">Código (pronto)</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Mini app: Tareas / Entrenos</h3>
+          <p>CRUD simple con LocalStorage y validaciones.</p>
+          <div class="card-links">
+            <a href="#" aria-disabled="true">Demo (pronto)</a>
+            <a href="#" aria-disabled="true">Código (pronto)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <p>
+        📍 Alzira (Valencia) · Disponible en Valencia (presencial/híbrido) y remoto<br>
+        📧 <a href="mailto:miguelangelduquecalatayud@gmail.com">miguelangelduquecalatayud@gmail.com</a>
       </p>
 
+      <div class="contact">
+        <a class="btn" href="mailto:miguelangelduquecalatayud@gmail.com">Enviar email</a>
+        <a class="btn btn-ghost"
+           href="https://github.com/MiguelAngelDuque"
+           target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn-ghost"
+           href="https://www.linkedin.com/in/miguel-angel-duque-calatayud/"
+           target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> Miguel Angel Duque Calatayud</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Miguel Angel Duque | Web/Full-stack junior</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="logo" href="#top">Miguel Angel</a>
+
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <h1>Desarrollador Web / Full-stack junior</h1>
+
+      <p>
+        SMR + DAM + Certificados de Profesionalidad Web. Busco mi primera oportunidad como junior.
+      </p>
+
+      <p class="meta">📍 Alzira (Valencia) · Disponible en Valencia (presencial/híbrido) y remoto</p>
 
       <div class="cta">
         <a class="btn" href="#proyectos">Ver proyectos</a>
